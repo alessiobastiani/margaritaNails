@@ -3,6 +3,7 @@ import Carrusel from './Carrusel'
 import desing from '../assets/desing.gif'
 import SeccionImagenes from './SeccionImagenes'
 import Regalo from './Regalo'
+import Atada from './Atada'
 
 const Home = () => {
   return (
@@ -18,6 +19,7 @@ const Home = () => {
         </div>
         <SeccionImagenes/>
         <Regalo/>
+        <Atada/>
     </div>
   )
 }

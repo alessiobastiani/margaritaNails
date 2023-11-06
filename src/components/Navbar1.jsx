@@ -19,15 +19,13 @@ const Navbar1 = () => {
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className='me-auto liks-uno'>
                         <Nav.Link>CONÓCENOS</Nav.Link>
-                        <Link to={"/servicios"}> 
                         <NavDropdown title="SERVICIOS" id="basic-nav-dropdown">
-                            <NavDropdown.Item href="#softgel">Softgel</NavDropdown.Item>
-                            <NavDropdown.Item href="#semipermanente">Semipermanente</NavDropdown.Item>
-                            <NavDropdown.Item href="#esculpidas">Esculpidas</NavDropdown.Item>
+                            <NavDropdown.Item as={Link} to="/servicios#softgel">Softgel</NavDropdown.Item>
+                            <NavDropdown.Item as={Link} to="/servicios#semipermanente">Semipermanente</NavDropdown.Item>
+                            <NavDropdown.Item as={Link} to="/servicios#esculpidas">Esculpidas</NavDropdown.Item>
                             <NavDropdown.Divider />
-                            <NavDropdown.Item href="#nivelacion">Nivelación</NavDropdown.Item>
+                            <NavDropdown.Item as={Link} to="/servicios#nivelacion">Nivelación</NavDropdown.Item>
                         </NavDropdown>
-                        </Link>
                     </Nav>
                     <Navbar.Brand className='d-none d-lg-block'>
                         <Link to="/">

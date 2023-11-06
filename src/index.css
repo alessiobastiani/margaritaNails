@@ -40,8 +40,8 @@ body{
         margin-top: 30px;
     }
     .navegador .logo{
-        width: 120px;
-        height: 120px;
+        width: 100px;
+        height: 100px;
     }
 }
 
@@ -298,8 +298,8 @@ body{
   }
   
   .logo-f img{
-    width: 250px;
-    height: 250px;
+    width: 200px;
+    height: 200px;
   }
 
   @media(max-width: 800px){
@@ -324,3 +324,64 @@ body{
   .derecho{
     justify-content: space-evenly
   }
+
+  /*SERVICIOS*/
+
+.contenedor-uñas{
+  width: 60%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  padding: 10px;
+  flex-direction: column;
+}
+
+.softgel{
+  margin-top: 50px;
+}
+
+  .softgel h1{
+    font-size: 25px;
+    font-family: 'Playfair Display', serif;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+
+  
+  .softgel p{
+    font-size: 19px;
+    font-family: 'Playfair Display', serif;
+    margin-bottom: 20px;
+  }
+
+  .contenedor-uñas .softgel .img-soft{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin: auto;
+    margin-top: 20px;
+  }
+
+  .contenedor-uñas .softgel .img-soft img{
+    width: 435px;
+    height: 435px;
+  }
+
+  @media(max-width:970px){
+    .contenedor-uñas{
+      width: 100%;
+      padding: 15px;
+    }
+    .contenedor-uñas .softgel .img-soft{
+      flex-direction: column;
+      margin-bottom: 0;
+    }
+    .contenedor-uñas .softgel .img-soft img{
+      width: 340px;
+      height: 340px;
+      margin: auto;
+    }
+  }
+

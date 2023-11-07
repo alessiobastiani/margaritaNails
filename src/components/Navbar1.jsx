@@ -18,7 +18,9 @@ const Navbar1 = () => {
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className='me-auto liks-uno'>
-                        <Nav.Link>CONÓCENOS</Nav.Link>
+                        <Link to={"/conocenos"}>
+                        <Nav className='nav-link'>CONOCENOS</Nav>
+                        </Link>
                         <NavDropdown title="SERVICIOS" id="basic-nav-dropdown">
                             <NavDropdown.Item as={Link} to="/servicios#softgel">Softgel</NavDropdown.Item>
                             <NavDropdown.Item as={Link} to="/servicios#semipermanente">Semipermanente</NavDropdown.Item>

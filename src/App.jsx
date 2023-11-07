@@ -3,6 +3,7 @@ import Navbar1 from "./components/Navbar1"
 import Home from "./components/Home"
 import ServicioPage from "./components/ServicioPage"
 import Footer from "./components/Footer"
+import PageNosotros from "./components/PageNosotros"
 
 function App() {
 
@@ -13,6 +14,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home/>}/>
         <Route path="/servicios" element={<ServicioPage />} />
+        <Route path="/conocenos" element={<PageNosotros/>} />
       </Routes>
       <Footer/>
     </BrowserRouter>

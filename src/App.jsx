@@ -4,6 +4,7 @@ import Home from "./components/Home"
 import ServicioPage from "./components/ServicioPage"
 import Footer from "./components/Footer"
 import PageNosotros from "./components/PageNosotros"
+import Reservar from "./components/Reservar"
 
 function App() {
 
@@ -15,6 +16,7 @@ function App() {
         <Route path="/" element={<Home/>}/>
         <Route path="/servicios" element={<ServicioPage />} />
         <Route path="/conocenos" element={<PageNosotros/>} />
+        <Route path="/reservar" element={<Reservar/>}/>
       </Routes>
       <Footer/>
     </BrowserRouter>

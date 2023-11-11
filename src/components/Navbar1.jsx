@@ -35,7 +35,9 @@ const Navbar1 = () => {
                         </Link>
                     </Navbar.Brand>
                     <Nav className='ms-auto '>
-                        <Nav.Link href="#link">RESERVAR</Nav.Link>
+                        <Link to={"/reservar"}>              
+                        <Nav className='nav-link' href="#link">RESERVAR</Nav>
+                        </Link>
                         <Nav.Link href="#link">CONTACTO</Nav.Link>
                     </Nav>
                 </Navbar.Collapse>

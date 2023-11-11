@@ -6,7 +6,7 @@ const Carrusel = () => {
     return (
         <Carousel>
           <Carousel.Item>
-            <img src={imagen} alt="" className='imagen1 img-fluid'/>
+            <img src={imagen} alt="" className='imagen1'/>
           </Carousel.Item>
         </Carousel>
       );

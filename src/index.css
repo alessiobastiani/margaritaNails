@@ -53,6 +53,7 @@ body{
     align-items: center;
     width: 80%;
     margin: auto;
+    height: 700px;
 }
 
 .texto-intro h1{
@@ -82,6 +83,13 @@ body{
         height: 310px;
     }
 }
+
+.imagen1{
+  width: 100%;
+  height: 600px;
+  object-fit: cover;
+}
+
 
 .contenedor {
     width: 100%;
@@ -144,7 +152,7 @@ body{
 
   .contenedor-regalo{
     margin: 80px;
-    height: 300px;
+    height: 400px;
     background-color: #F1F0F2;
     align-items: center;
 }
@@ -183,7 +191,7 @@ body{
 
     .contenedor-regalo{
         margin: 30px;
-        height: auto;
+        height: 500px;
         background-color: #F1F0F2;
     }
 }
@@ -241,10 +249,11 @@ body{
     justify-content: space-around;
     align-items: center;
     margin: 80px;
+    margin-top: 25px;
 }
 
 .cssbuttons-io-button {
-    background: #a370f0;
+    background: #d2b2c9;
     color: white;
     font-family: inherit;
     padding: 0.35em;
@@ -256,7 +265,7 @@ body{
     letter-spacing: 0.05em;
     display: flex;
     align-items: center;
-    box-shadow: inset 0 0 1.6em -0.6em #714da6;
+    box-shadow: inset 0 0 1.6em -0.6em #d2b2c9;
     overflow: hidden;
     position: relative;
     height: 2.8em;
@@ -275,7 +284,7 @@ body{
     height: 2.2em;
     width: 2.2em;
     border-radius: 0.7em;
-    box-shadow: 0.1em 0.1em 0.6em 0.2em #7b52b9;
+    box-shadow: 0.1em 0.1em 0.6em 0.2em #d2b2c9;
     right: 0.3em;
     transition: all 0.3s;
   }
@@ -287,7 +296,7 @@ body{
   .cssbuttons-io-button .icon svg {
     width: 1.1em;
     transition: transform 0.3s;
-    color: #7b52b9;
+    color: #D2ABC7;
   }
   
   .cssbuttons-io-button:hover .icon svg {
@@ -366,8 +375,8 @@ body{
   }
 
   .contenedor-uñas .softgel .img-soft img{
-    width: 435px;
-    height: 435px;
+    width: 50%;
+    height: 50%;
   }
 
   @media(max-width:970px){
@@ -380,23 +389,23 @@ body{
       margin-bottom: 0;
     }
     .contenedor-uñas .softgel .img-soft img{
-      width: 340px;
-      height: 340px;
-      margin: auto;
+      width: 100%;
+      height: 320px;
+      object-fit: cover;
     }
   }
 
 /*Nosotros*/
+
 .contenedor-nosotros .intro-nosotros{
-  width: 80%;
-  background-color: rgba(210, 171, 199, 0.3);
-  padding: 25px;
-  margin-top: 30px;
+  width: 100%;
+  background-color: #d2b2c9;
+  padding: 10px;
+  margin-top: 20px;
   justify-content: center;
   align-items: center;
   margin: auto;
   margin-top: 25px;
-  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2);
 }
 
 .intro-nosotros img{
@@ -427,13 +436,10 @@ body{
 @media(max-width:970px){
   .contenedor-nosotros .intro-nosotros{
     flex-direction: column;
-    width: 90%;
-    padding: 0px;
   }
   .intro-nosotros img{
     width: 320px;
     height: 320px;
-    padding: 15px;
     margin-top: 20px;
   }
   .text-nosotros{
@@ -450,37 +456,7 @@ body{
   
 }
 
-.contenedor-card{
-  width: 80%;
-  margin: auto;
-  justify-content: center;
-  gap: 20px;
-  margin-top: 70px;
-  flex-wrap: wrap;
-}
-
-.card-nosotros {
-  background-color: rgba(210, 171, 199, 0.3); /* Color más transparente */
-  height: 390px;
-  border-radius: 0;
-  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2);
-}
-
-.card-nosotros .body{
-  display: flex;
-  flex-direction: column;
-  margin: auto;
-  justify-content: space-evenly;
-}
-
-.card-nosotros .title{
-    text-align: center;
-    font-size: 25px;
-    font-family: 'Playfair Display', serif;
-    font-weight: bold;
-    font-style: italic;
-}
-
-.card-nosotros .texto{
-  font-size: 20px;
+.logo-c{
+  width:80px;
+  height:80px;
 }

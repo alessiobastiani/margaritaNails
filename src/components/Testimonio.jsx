@@ -25,7 +25,7 @@ export default function Example() {
                 <svg viewBox="0 0 2 2" width={3} height={3} aria-hidden="true" className="fill-gray-900">
                   <circle cx={1} cy={1} r={1} />
                 </svg>
-                <div className="text-gray-600">Manicurista Profesional</div>
+                <div className="text-gray-600">Manicurista</div>
               </div>
             </figcaption>
           </figure>

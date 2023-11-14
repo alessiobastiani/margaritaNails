@@ -66,6 +66,14 @@ body{
 .btn-conocenos{
     margin-top: 25px;
     margin-bottom: 25px;
+    background-color: #d2b2c9;
+    border:none;
+    color: white;
+}
+
+.btn-conocenos:hover{
+  background-color: #d2b2c9;
+  color: white;
 }
 
 .inicio .desing{
@@ -93,8 +101,8 @@ body{
 
 .contenedor {
     width: 100%;
-    height: 500px;
-    --color: #D2ABC7;
+    height: 600px;
+    --color: #d2b6c9;
     background: linear-gradient(95deg, var(--color) 25%, transparent 25%) -50px 0,
           linear-gradient(-15deg, var(--color) 25%, transparent 25%) -50px 0,
           linear-gradient(25deg, transparent 75%, var(--color) 75%) -50px 0,
@@ -406,6 +414,7 @@ body{
   align-items: center;
   margin: auto;
   margin-top: 25px;
+  color: white;
 }
 
 .intro-nosotros img{
@@ -417,6 +426,7 @@ body{
 .text-nosotros{
   width: 50%;
   margin: 15px;
+  font-family: 'Playfair Display', serif;
 }
 
 .text-nosotros h2{
@@ -463,9 +473,13 @@ body{
 
 /* reserva*/
 
-.title-r, .span-r, .tt-r{
+.title-r, .span-r, .tt-r, .t-c{
   font-family: 'Playfair Display', serif;
   font-style: italic;
+}
+
+.t-c{
+  color:#d2b2c9;
 }
 
 .btn-r{
@@ -474,4 +488,10 @@ body{
 
 .p-r, .t-r{
   color:#d2b2c9;
+}
+
+/*contactanos*/
+
+.contenedor-c {
+  background-color: #d2b2c9;
 }

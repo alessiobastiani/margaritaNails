@@ -1,7 +1,9 @@
 import React from 'react'
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
-import card1 from '../assets/card1.jpg'
+import mariposin from '../assets/mariposin.jpeg' 
+import cuidado from '../assets/rusin.jpeg' 
+import rusaa from '../assets/rusa.jpeg'
 
 const SeccionImagenes = () => {
   return (
@@ -14,15 +16,14 @@ const SeccionImagenes = () => {
       <div className="custom-card-img-container">
         <Card.Img
           variant="top"
-          src={card1}
+          src={mariposin}
           className="custom-card-img"
         />
       </div>
       <Card.Body>
         <Card.Title>Diseños Exclusivos</Card.Title>
         <Card.Text>
-          Some quick example text to build on the card title and make up the
-          bulk of the card's content.
+        Nuestra dedicación a la exclusividad se refleja en cada detalle. Te garantizamos diseños hermosos.
         </Card.Text>
       </Card.Body>
     </Card>
@@ -30,15 +31,14 @@ const SeccionImagenes = () => {
       <div className="custom-card-img-container">
         <Card.Img
           variant="top"
-          src={card1}
+          src={rusaa}
           className="custom-card-img"
         />
       </div>
       <Card.Body>
-        <Card.Title>Card Title</Card.Title>
+        <Card.Title>Manicuria Rusa</Card.Title>
         <Card.Text>
-          Some quick example text to build on the card title and make up the
-          bulk of the card's content.
+        se realiza con torno y consigue una limpieza profunda de la uña quitando totalmente la cutícula
         </Card.Text>
       </Card.Body>
     </Card>
@@ -46,35 +46,17 @@ const SeccionImagenes = () => {
       <div className="custom-card-img-container">
         <Card.Img
           variant="top"
-          src={card1}
+          src={cuidado}
           className="custom-card-img"
         />
       </div>
       <Card.Body>
-        <Card.Title>Card Title</Card.Title>
+        <Card.Title>Cuidado De Las Uñas</Card.Title>
         <Card.Text>
-          Some quick example text to build on the card title and make up the
-          bulk of the card's content.
+        Se promueve el cuidado de la uña natural de las clientas, utilizando las herramientas menos abrasivas
         </Card.Text>
       </Card.Body>
     </Card>
-    <Card className="custom-card" style={{ width: '17rem' }}>
-      <div className="custom-card-img-container">
-        <Card.Img
-          variant="top"
-          src={card1}
-          className="custom-card-img"
-        />
-      </div>
-      <Card.Body>
-        <Card.Title>Card Title</Card.Title>
-        <Card.Text>
-          Some quick example text to build on the card title and make up the
-          bulk of the card's content.
-        </Card.Text>
-      </Card.Body>
-    </Card>
-    
         </div>
     </div>
   )

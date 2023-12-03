@@ -2,6 +2,10 @@ import { HeartIcon } from '@heroicons/react/24/outline';
 import  ContactoDos from './ContactoDos'
 
 export default function Example() {
+  const phoneNumber = '542804866673'; // Reemplaza con tu número de WhatsApp
+  const message = 'Hola, estoy interesado en tus servicios.';
+  const whatsappLink = `https://api.whatsapp.com/send?phone=${phoneNumber}&text=${encodeURIComponent(message)}`;
+
   return (
     <div>
 <ContactoDos/>
@@ -14,12 +18,13 @@ export default function Example() {
               ¡Estamos aquí para ayudarte! ¿Tienes alguna pregunta o inquietud? No dudes en ponerte en contacto con nosotros. Estamos ansiosos por escucharte y ofrecerte la mejor asistencia posible. ¡Hablemos!
             </p>
             <div className="mt-6 flex max-w-md gap-x-4">
+              <a href={whatsappLink} target="_blank" rel="noopener noreferrer">
               <button
-                type="submit"
                 className="btn-conocenos flex-none rounded-md bg-indigo-500 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-500"
-              >
+                >
                 Escribinos
               </button>
+              </a>
             </div>
           </div>
           <dl className="grid grid-cols-1 gap-x-8 gap-y-10 sm:grid-cols-2 lg:pt-2">

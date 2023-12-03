@@ -7,6 +7,10 @@ const includedFeatures = [
 ]
 
 export default function Example() {
+  const phoneNumber = '542804866673'; // Reemplaza con tu número de WhatsApp
+  const message = 'Hola, estoy interesado en tus servicios.';
+  const whatsappLink = `https://api.whatsapp.com/send?phone=${phoneNumber}&text=${encodeURIComponent(message)}`;
+
   return (
     <div className="bg-white py-24 sm:py-32">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
@@ -46,7 +50,7 @@ export default function Example() {
                   <span className="text-5xl font-bold tracking-tight text-gray-900 span-r">Reservar</span>
                 </p>
                 <a
-                  href="#"
+                  href={whatsappLink} target="_blank" rel="noopener noreferrer"
                   className="mt-10 block w-full rounded-md bg-indigo-600 px-3 py-2 text-center text-sm font-semibold text-white shadow-sm  focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600 btn-r"
                 >
                   Reserva

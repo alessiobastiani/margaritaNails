@@ -387,6 +387,7 @@ body{
     height: 50%;
   }
 
+
   @media(max-width:970px){
     .contenedor-uñas{
       width: 100%;
@@ -494,4 +495,30 @@ body{
 
 .contenedor-c {
   background-color: #d2b2c9;
+}
+
+.btn-wsp {
+  position: fixed;
+  width: 55px;
+  height: 55px;
+  line-height: 55px;
+  bottom: 30px;
+  right: 30px;
+  background-color:#d2b2c9;
+  color: #fff;
+  border-radius: 50px;
+  text-align: center;
+  font-size: 30px;
+  box-shadow: 0 1px 10px rgba(0, 0, 0, 0.3);
+  z-index: 100;
+}
+
+.btn-wsp a{
+  text-decoration: none;
+}
+
+.btn-wsp ion-icon {
+  color: white; /* Color verde de WhatsApp */
+  font-size: 30px; 
+  margin-top: 12px;
 }

@@ -6,6 +6,7 @@ import Footer from "./components/Footer"
 import PageNosotros from "./components/PageNosotros"
 import Reservar from "./components/Reservar"
 import Contacto from './components/Contacto'
+import WhatsAppButton from "./components/whastAppButton"
 
 function App() {
 
@@ -20,6 +21,7 @@ function App() {
         <Route path="/reservar" element={<Reservar/>}/>
         <Route path="/contactos" element={<Contacto/>}/>
       </Routes>
+      <WhatsAppButton/>
       <Footer/>
     </BrowserRouter>
   )
